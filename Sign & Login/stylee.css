@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+h1:hover{
+    color: rgb(10, 169, 208);
+
+}
+#container{
+    color: white;
+    font-family: Arial;
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    border-radius: 30px;
+    align-items: center;
+    margin-left : 500px;
+    margin-right: 500px;
+}
+input{
+    padding: 4px;
+    border-radius: 7px;
+}
+
+a,button{
+    color: white;
+    background-color: rgb(10, 169, 208);
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+a,button:hover{
+    cursor: pointer;
+    background-color: rgb(4, 139, 173) ;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.1);
+}

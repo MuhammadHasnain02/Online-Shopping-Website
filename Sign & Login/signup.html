@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email | Password Check</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+<div id="container">
+
+    <h1>SignUp</h1>
+
+    <br>
+    <label for="name">
+        Name : 
+        <input type="text" id="name" placeholder="Enter Name" >
+    </label>
+    <br><br><br>
+
+    <label for="email">
+        Email : 
+        <input type="email" id="email" placeholder="Enter Email" >
+    </label>
+    <br><br><br>
+
+    <label for="password">
+        Password : 
+        <input type="password" id="password" placeholder="Enter Password" >
+    </label>
+    <br><br><br><br>
+
+    <button onclick="signup()">SignUp</button>
+    <br><br>
+</div>
+
+<script>
+
+function signup(){
+    let username = document.getElementById("name").value
+    let useremail = document.getElementById("email").value
+    let userpassword = document.getElementById("password").value
+
+    let multipleuserArr = JSON.parse(localStorage.getItem("Multipleusers"))
+
+    let emailstore = {
+        name    : username,
+        email   : useremail,    
+        password: userpassword
+    }
+
+    if(useremail == ""){
+        alert("Enter Email Adress")
+        return
+    }   
+    else if(userpassword == ""){
+        alert("Enter Password")
+        return
+    }
+
+    if(multipleuserArr){
+
+        for(let i=0; i < multipleuserArr.length; i++){
+
+            if(useremail == multipleuserArr[i].email){
+                alert("Email Already Exist Try Another Email")
+                return
+            }
+        }
+
+        multipleuserArr.push(emailstore)
+    }
+    else{
+        multipleuserArr = [emailstore]
+    }
+
+    localStorage.setItem("Multipleusers" , JSON.stringify(multipleuserArr))
+    window.location.href = "login.html"
+}
+
+
+
+</script>
+
+</body>
+</html>

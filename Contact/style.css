@@ -1,0 +1,40 @@
+body{
+    color: white;
+    background-color: black;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-25deg,#787575 50%,black 50%);
+}
+
+.div{
+    text-align: center;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px white;
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: 2px solid aqua;
+    border-top-color: blueviolet;
+    border-bottom-color: blueviolet;
+}
+
+#fullname,#email,#subject,#message{
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.div>button{
+    border-radius: 6px;
+    padding: 5px;
+    width: 80px;
+    color: white;
+    background-color: rgb(10, 180, 180);
+}
+.div>button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.6s ease-in-out;   
+}

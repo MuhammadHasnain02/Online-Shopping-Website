@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="div">
+
+    <h2>Email</h2>
+    <label for="fullname">
+        <input placeholder="Enter Full Name" type="text" id="fullname">
+    </label>
+    <br><br>
+    <label for="email">
+        <input placeholder="Email" type="text" id="email">
+    </label>
+    <br><br> 
+    <label for="subject">
+        <input placeholder="Subject" type="text" id="subject">
+    </label>
+    <br><br>
+    <label for="message">
+        <textarea cols="20" rows="5" id="message" placeholder="Enter Message ..."></textarea>
+    </label>
+    <br><br>
+    <button onclick="sendEmail()">Send</button>
+
+</div>
+
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "UNL9C6LtBif2FSjUz",
+      });
+   })();
+</script>
+
+<script>
+    function sendEmail(){
+        let name = document.getElementById("fullname").value
+        let email = document.getElementById("email").value
+        let subject = document.getElementById("subject").value
+        let message = document.getElementById("message").value
+
+        let info = {
+            userName : name,
+            userEmail : email,
+            userSubject : subject,
+            userMessage : message
+        }
+
+        emailjs.send("service_4js45ke","template_w3h5kqm",info)
+        .then(function(responce){
+            alert("Send Email Sucessfully")
+        })
+        .catch(function(error){
+            console.log(error)
+        })
+        
+        let name1 = document.getElementById("fullname").value=""
+        let email1 = document.getElementById("email").value =""
+        let subject1 = document.getElementById("subject").value =""
+        let message1 = document.getElementById("message").value =""
+    }
+</script>
+
+</body>
+</html>
