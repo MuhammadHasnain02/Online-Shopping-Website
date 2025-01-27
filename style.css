@@ -198,6 +198,78 @@ body{
         margin-right: -80px;
     }
 
+    .cardset1 {
+        width: 161px;
+        padding-top: 20px;
+        padding-left: 61px;
+        margin-bottom: -5px;
+    }
+    .cardset2 {
+        width: 172px;
+        padding-top: 20px;
+        padding-left: 49px;
+        margin-bottom: -5px;
+    }
+    .cardset3 {
+        width: 164px;
+        padding-top: 20px;
+        padding-left: 57px;
+        margin-bottom: -5px;
+    }
+    .cardset4 {
+        width: 172px;
+        padding-top: 20px;
+        padding-left: 42px;
+        margin-bottom: -5px;
+    }
+    .cardset5 {
+        width: 187px;
+        padding-top: 22px;
+        padding-left: 48px;
+        margin-bottom: -7px;
+    }
+    .cardset6 {
+        width: 165px;
+        padding-top: 20px;
+        padding-left: 46px;
+        margin-bottom: -5px;
+    }
+    .cardset7 {
+        width: 194px;
+        padding-top: 26px;
+        padding-left: 31px;
+        margin-bottom: -5px;
+    }
+    .cardset8 {
+        width: 174px;
+        padding-top: 20px;
+        padding-left: 53px;
+        margin-bottom: -5px;
+    }
+    .cardset9 {
+        width: 174px;
+        padding-top: 10px;
+        padding-left: 54px;
+        margin-bottom: -7px;
+    }
+    .cardset10 {
+        width: 170px;
+        padding-top: 15px;
+        padding-left: 48px;
+        margin-bottom: -5px;
+    }
+    .cardset11 {
+        width: 184px;
+        padding-top: 30px;
+        padding-left: 55px;
+        margin-bottom: -4px;
+    }
+    .cardset12 {
+        width: 180px;
+        padding-top: 34px;
+        padding-left: 36px;
+        margin-bottom: -5px;
+    }
 }
 
 /* // Screen Size 992px check */
@@ -220,6 +292,78 @@ body{
         font-size: 14px;
     }
     
+    .cardset1 {
+        width: 142px;
+        padding-top: 20px;
+        padding-left: 42px;
+        margin-bottom: -5px;
+    }
+    .cardset2 {
+        width: 154px;
+        padding-top: 20px;
+        padding-left: 32px;
+        margin-bottom: -5px;
+    }
+    .cardset3 {
+        width: 145px;
+        padding-top: 20px;
+        padding-left: 38px;
+        margin-bottom: -5px;
+    }
+    .cardset4 {
+        width: 158px;
+        padding-top: 20px;
+        padding-left: 29px;
+        margin-bottom: -5px;
+    }
+    .cardset5 {
+        width: 166px;
+        padding-top: 22px;
+        padding-left: 27px;
+        margin-bottom: -7px;
+    }
+    .cardset6 {
+        width: 155px;
+        padding-top: 20px;
+        padding-left: 36px;
+        margin-bottom: -5px;
+    }
+    .cardset7 {
+        width: 174px;
+        padding-top: 26px;
+        padding-left: 12px;
+        margin-bottom: -5px;
+    }
+    .cardset8 {
+        width: 153px;
+        padding-top: 20px;
+        padding-left: 32px;
+        margin-bottom: -5px;
+    }
+    .cardset9 {
+        width: 160px;
+        padding-top: 10px;
+        padding-left: 40px;
+        margin-bottom: -7px;
+    }
+    .cardset10 {
+        width: 155px;
+        padding-top: 15px;
+        padding-left: 34px;
+        margin-bottom: -5px;
+    }
+    .cardset11 {
+        width: 166px;
+        padding-top: 30px;
+        padding-left: 37px;
+        margin-bottom: -4px;
+    }
+    .cardset12 {
+        width: 166px;
+        padding-top: 34px;
+        padding-left: 23px;
+        margin-bottom: -5px;
+    }
 }
 
 /* // Screen Size 768px check */
