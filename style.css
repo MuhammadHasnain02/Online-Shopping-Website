@@ -4,10 +4,11 @@ body{
     background-color: rgb(247, 245, 245);
 }
 /* NAVBAR */
-.navbar{
+.Navbar{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: orangered;
     margin-left: -100px;
     margin-right: -100px;
@@ -17,7 +18,7 @@ body{
 }
 
 /* Navbar logo */
-#navlogo>img{
+#navlogo{
     width: 200px;
     padding: 12px;
     padding-left: 40px;
@@ -30,7 +31,8 @@ body{
     font-family: Arial;
     color: white;
     text-decoration: none;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 #navtext>.navbtn:hover{
     color: black;
@@ -47,50 +49,44 @@ body{
 }
 /* SLIDER */
 
-
-/* CARD */
-
-/* .cardsdiv{
-} */
-
 .cards:hover{
     cursor: pointer;
     background-color: rgb(243, 241, 241);
 }
 
-/* .cardsdiv2{
-} */
+/* CARD */
 
-.cardset1 {width: 120px; padding-top: 25px; padding-left: 40px;}
-.cardset2 {width: 120px; padding-top: 35px; padding-left: 38px;}
-.cardset3 {width: 120px; padding-top: 22px; padding-left: 35px;}
-.cardset4 {width: 125px; padding-top: 28px; padding-left: 25px;}
-.cardset5 {width: 130px; padding-top: 32px; padding-left: 25px;}
-.cardset6 {width: 125px; padding-top: 24px; padding-left: 20px;}
-.cardset7 {width: 140px; padding-top: 26px; padding-left: 11px;}
-.cardset8 {width: 120px; padding-top: 20px; padding-left: 33px;}
-.cardset9 {width: 120px; padding-top: 20px; padding-left: 40px;}
-.cardset10{width: 125px; padding-top: 25px; padding-left: 28px;}
-.cardset11{width: 125px; padding-top: 19px; padding-left: 32px;}
-.cardset12{width: 140px; padding-top: 25px; padding-left: 28px;}
-.cardset13{width: 140px; padding-top: 30px; padding-left: 15px;}
-.cardset14{width: 140px; padding-top: 33px; padding-left: 18px;}
+.cards>div{
+    padding-bottom: 8px;
+}
+
+.cardset1 {width: 140px; padding-top: 20px; padding-left: 40px; margin-bottom: -5px;}
+.cardset2 {width: 150px; padding-top: 20px; padding-left: 27px; margin-bottom: -5px;}
+.cardset3 {width: 140px; padding-top: 20px; padding-left: 33px; margin-bottom: -5px;}
+.cardset4 {width: 150px; padding-top: 20px; padding-left: 20px; margin-bottom: -5px;}
+.cardset5 {width: 160px; padding-top: 20px; padding-left: 20px; margin-bottom: -5px;}
+.cardset6 {width: 140px; padding-top: 20px; padding-left: 20px; margin-bottom: -5px;}
+.cardset7 {width: 170px; padding-top: 26px; padding-left: 12px; margin-bottom: -5px;}
+.cardset8 {width: 150px; padding-top: 20px; padding-left: 33px; margin-bottom: -5px;}
+.cardset9 {width: 150px; padding-top: 10px; padding-left: 30px; margin-bottom: -7px;}
+.cardset10{width: 150px; padding-top: 15px; padding-left: 28px; margin-bottom: -5px;}
+.cardset11{width: 160px; padding-top: 30px; padding-left: 32px; margin-bottom: -4px;}
+.cardset12{width: 160px; padding-top: 34px; padding-left: 20px; margin-bottom: -5px;}
 
 
-.cardtext1 {text-align: center; font-size: 18px;}
-.cardtext2 {text-align: center; padding-top: 7px; font-size: 18px;}
+.cardtext1 {text-align: center; font-size: 18px; padding-top: 9px;}
+.cardtext2 {text-align: center; padding-top: 10px; font-size: 18px;}
 .cardtext3 {text-align: center; font-size: 18px;}
-.cardtext4 {text-align: center; padding-top: 7px; font-size: 18px;}
-.cardtext5 {text-align: center; padding-top: 7px; font-size: 18px;}
-.cardtext6 {text-align: center; padding-top: 2px; font-size: 18px;}
+.cardtext4 {text-align: center; padding-top: 10px; font-size: 18px;}
+.cardtext5 {text-align: center; padding-top: 10px; font-size: 18px;}
+.cardtext6 {text-align: center; padding-top: 10px; font-size: 18px;}
 .cardtext7 {text-align: center; padding-top: 12px; font-size: 18px;}
-.cardtext8 {text-align: center; font-size: 18px;}
-.cardtext9 {text-align: center; padding-top: 10px; font-size: 18px;}
-.cardtext10{text-align: center; font-size: 18px;}
-.cardtext11{text-align: center; font-size: 18px;}
+.cardtext8 {text-align: center; padding-top: 12px; font-size: 18px;}
+.cardtext9 {text-align: center; font-size: 18px;}
+.cardtext10{text-align: center; padding-top: 2px; font-size: 18px;}
+.cardtext11{text-align: center; padding-top: 10px; font-size: 18px;}
 .cardtext12{text-align: center; padding-top: 12px; font-size: 18px;}
-.cardtext13{text-align: center; padding-top: 11px; font-size: 18px;}
-.cardtext14{text-align: center; padding-top: 13px; font-size: 18px;}
+
 /* CARD */
 
 
@@ -179,42 +175,113 @@ body{
 /* footer */
 
 
-
-
-/* // Screen Size 1600px check */
-@media (max-width: 1900px){
-    #searchlogo {
-        left: 902px;
-    }
-}
 /* // Screen Size 1400px check */
-@media (max-width: 1550px){
-    #searchlogo {
-        left: 804px;
-    }
-}
+@media (max-width: 1660px){}
+
 /* // Screen Size 1200px check */
 @media (max-width: 1399px){
-    #searchlogo {
-        left: 684px;
+    body {
+        margin-left: 80px;
+        margin-right: 80px;
     }
-    .navbar>input{width: 460px;}
-    .hide{display: none;}
+    .Navbar {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+    #navtext>.navbtn {
+        padding-left: 8px;
+        padding-right: 18px;
+        font-size: 15px;
+    }
+    #footer {
+        margin-left: -80px;
+        margin-right: -80px;
+    }
+
 }
+
 /* // Screen Size 992px check */
 @media (max-width: 1199px){
-    #navtext>.navbtn{
-        padding-right: 25px;
-        padding-top: 15px;
-        font-size: 15px;
-        display: flex;
-        display: inline-block;
-        justify-content: center;
+    body {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .Navbar {
+        margin-left: -70px;
+        margin-right: -70px;
+    }
+    #footer {
+        margin-left: -70px;
+        margin-right: -70px;
+    }
+    #navtext>.navbtn {
+        padding-left: 6px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+    
+}
+
+/* // Screen Size 768px check */
+@media (max-width: 991px){
+    body {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+    .Navbar {
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+    #footer {
+        margin-left: -60px;
+        margin-right: -60px;
+    }
+    #navtext>.navbtn {
+        padding-left: 4px;
+        padding-right: 10px;
+        font-size: 13px;
     }
 }
-/* // Screen Size 768px check */
-@media(max-width: 991px){}
-/* //Screen Size 576px check */
-@media (max-width: 767px){}
-/* // Screen Size All mobile check */
-@media (max-width: 575px) {}
+
+/* // Screen Size 576px check */
+@media (max-width: 767px){
+    body {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .Navbar {
+        flex-direction: column;
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+    #navtext>.navbtn {
+        padding-bottom: 10px;
+    }
+    #footer {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+
+/* // Screen Size All mobile check  */
+@media(max-width: 575px){
+    body {
+        margin-left: 18px;
+        margin-right: -58px;
+    }
+    .Navbar {
+        flex-direction: column;
+        margin-left: -18px;
+        margin-right: -16px;
+    }
+    #navtext>.navbtn {
+        padding-left: 6px;
+        padding-right: 6px;
+        font-size: 11px;
+    }
+    #footer {
+        margin-left: -158px;
+        margin-right: -17px;
+    }
+}
+
