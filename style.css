@@ -205,22 +205,20 @@ body{
     margin-left: -100px;
     margin-right: -100px;
     padding-top: 40px;
-    padding-bottom: 40px;
     padding-left: 100px;
     padding-right: 100px;
-
+    margin-bottom: -16px;
 }
 
-#footerDiv1{
-    display: flex;
-    justify-content: space-between;
-    
-}
+/* #footerDiv1>div{
+
+} */
 
 #footerDiv2{
     /* background-color: rgb(236, 234, 234); */
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 40px;
 }
 
 /* #logo1{} */
@@ -231,6 +229,21 @@ body{
 
 #footerLastText{
     font-size: 28px;
+}
+
+
+
+.lastText{
+    background-color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin-left:  -100px;
+    margin-right: -100px;
+}
+.lastText>p{
+    color: white;
+    font-size: 20px;
 }
 
 
@@ -568,11 +581,143 @@ body{
         margin-right: -17px;
     }
     .cards{
-        display: inline-block;
+        display: block;
     }
-    .rowDiv{
-        display: flex;
-        flex-direction: column;
+
+    .cardset1 {
+        width: 120px;
+        padding-top: 18px;
+        padding-left: 36px;
+        margin-bottom: -8px;
+    }
+    .cardset2 {
+        width: 127px;
+        padding-top: 16px;
+        padding-left: 21px;
+        margin-bottom: -8px;
+    }
+    .cardset3 {
+        width: 115px;
+        padding-top: 16px;
+        padding-left: 30px;
+        margin-bottom: -8px;
+    }
+    .cardset4 {
+        width: 120px;
+        padding-top: 16px;
+        padding-left: 20px;
+        margin-bottom: -8px;
+    }
+    .cardset5 {
+        width: 130px;
+        padding-top: 16px;
+        padding-left: 24px;
+        margin-bottom: -8px;
+    }
+    .cardset6 {
+        width: 116px;
+        padding-top: 16px;
+        padding-left: 25px;
+        margin-bottom: -8px;
+    }
+    .cardset7 {
+        width: 131px;
+        padding-top: 26px;
+        padding-left: 20px;
+        margin-bottom: -5px;
+    }
+    .cardset8 {
+        width: 116px;
+        padding-top: 16px;
+        padding-left: 36px;
+        margin-bottom: -5px;
+    }
+    .cardset9 {
+        width: 128px;
+        padding-top: 10px;
+        padding-left: 28px;
+        margin-bottom: -7px;
+    }
+    .cardset10 {
+        width: 124px;
+        padding-top: 15px;
+        padding-left: 23px;
+        margin-bottom: -5px;
+    }
+    .cardset11 {
+        width: 134px;
+        padding-top: 30px;
+        padding-left: 32px;
+        margin-bottom: -4px;
+    }
+    .cardset12 {
+        width: 130px;
+        padding-top: 34px;
+        padding-left: 18px;
+        margin-bottom: -5px;
+    }
+
+
+    .bigcard1>a>img {
+        width: 175px;
+        height: 128px;
+        padding-left: 0px;
+        padding-right: 15px;
+    }
+    .bigcard2>a>img {
+        width: 141px;
+        height: 128px;
+        padding-left: 5px;
+    }
+    .bigcard3>a>img {
+        width: 152px;
+        height: 123px;
+        padding-left: 2px;
+    }
+    .bigcard4>a>img {
+        width: 134px;
+        height: 102px;
+        padding-left: 10px;
+    }
+    .bigcard5>a>img {
+        width: 138px;
+        height: 120px;
+        padding-left: 12px;
+    }
+    .bigcard6>a>img {
+        width: 128px;
+        height: 120px;
+        padding-left: 19px;
+    }
+    .bigcard7>a>img {
+        width: 130px;
+        height: 130px;
+        padding-left: 16px;
+    }
+    .bigcard8>a>img {
+        width: 142px;
+        height: 130px;
+        padding-left: 14px;
+    }
+    .bigcard9>a>img {
+        width: 156px;
+        height: 130px;
+        padding-left: 0px;
+    }
+    .bigcard10>a>img {
+        width: 144px;
+        height: 130px;
+        padding-left: 8px;
+    }
+    .bigcard11>a>img {
+        width: 150px;
+        height: 123px;
+        padding-left: 4px;
+    }
+    .bigcard12>a>img {
+        width: 150px;
+        height: 123px;
+        padding-left: 4px;
     }
 }
 
