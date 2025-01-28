@@ -102,13 +102,75 @@ body{
 
 /* BigCard */
 
-.bigCardSet>img{height: 170px;}
 .bigCardSet>div>p{font-size: 14px;}
 .bigCardSet:hover{cursor: pointer; background-color: rgb(243, 241, 241);}
 
-.bigCardSet0>img{width: 150px; height: 170px; margin-left: 30px;}
+/* .bigCardSet0>img{width: 150px; height: 170px; margin-left: 30px;} */
 .bigCardSet0>div>p{font-size: 14px;}
 .bigCardSet0:hover{cursor: pointer; background-color: rgb(243, 241, 241);}
+
+
+
+.bigcard1>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard2>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard3>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard4>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard5>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard6>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard7>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard8>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard9>a>img {
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard10>a>img{
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard11>a>img{
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
+.bigcard12>a>img{
+    width: 210px;
+    height: 170px;
+    padding-left: 40px;
+}
 
 .Cardrup{
     color: rgb(233, 7, 7);
@@ -405,6 +467,84 @@ body{
         margin-left: -50px;
         margin-right: -50px;
     }
+
+    .cardset1 {
+        width: 112px;
+        padding-top: 16px;
+        padding-left: 26px;
+        margin-bottom: -8px;
+    }
+    .cardset2 {
+        width: 118px;
+        padding-top: 16px;
+        padding-left: 12px;
+        margin-bottom: -8px;
+    }
+    .cardset3 {
+        width: 114px;
+        padding-top: 16px;
+        padding-left: 20px;
+        margin-bottom: -8px;
+    }
+    .cardset4 {
+        width: 114px;
+        padding-top: 16px;
+        padding-left: 14px;
+        margin-bottom: -8px;
+    }
+    .cardset5 {
+        width: 122px;
+        padding-top: 16px;
+        padding-left: 15px;
+        margin-bottom: -8px;
+    }
+    .cardset6 {
+        width: 114px;
+        padding-top: 16px;
+        padding-left: 22px;
+        margin-bottom: -8px;
+    }
+    .cardset7 {
+        width: 122px;
+        padding-top: 26px;
+        padding-left: 10px;
+        margin-bottom: -5px;
+    }
+    .cardset8 {
+        width: 110px;
+        padding-top: 16px;
+        padding-left: 28px;
+        margin-bottom: -5px;
+    }
+    .cardtext8 {
+        text-align: center;
+        padding-top: 0px;
+        font-size: 17px;
+    }
+    .cardset9 {
+        width: 118px;
+        padding-top: 10px;
+        padding-left: 24px;
+        margin-bottom: -7px;
+    }
+    .cardset10 {
+        width: 116px;
+        padding-top: 15px;
+        padding-left: 15px;
+        margin-bottom: -5px;
+    }
+    .cardset11 {
+        width: 124px;
+        padding-top: 30px;
+        padding-left: 24px;
+        margin-bottom: -4px;
+    }
+    .cardset12 {
+        width: 121px;
+        padding-top: 34px;
+        padding-left: 10px;
+        margin-bottom: -5px;
+    }
 }
 
 /* // Screen Size All mobile check  */
@@ -426,6 +566,13 @@ body{
     #footer {
         margin-left: -158px;
         margin-right: -17px;
+    }
+    .cards{
+        display: inline-block;
+    }
+    .rowDiv{
+        display: flex;
+        flex-direction: column;
     }
 }
 
