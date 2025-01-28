@@ -188,12 +188,12 @@ body{
 #btnSet{
     width: 330px;
     height: 40px;
-    color: rgb(5, 159, 5);
-    box-shadow: 0px 0px 4px rgb(3, 167, 3);
+    color: orangered;
+    box-shadow: 0px 0px 4px orangered;
 }
 #btnSet:hover{
     color: white;
-    background-color: rgb(5, 180, 5);
+    background-color: orangered;
     transition: all 0.4s ease-in-out;
 }
 /* Load Button */
@@ -210,9 +210,7 @@ body{
     margin-bottom: -16px;
 }
 
-/* #footerDiv1>div{
-
-} */
+/* #footerDiv1>div{} */
 
 #footerDiv2{
     /* background-color: rgb(236, 234, 234); */
@@ -740,7 +738,7 @@ body{
         padding-left: 4px;
     }
 
-    
+
     #footer {
         margin-left: -18px;
         margin-right: -14px;
