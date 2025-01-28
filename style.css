@@ -345,6 +345,11 @@ body{
         padding-left: 36px;
         margin-bottom: -5px;
     }
+
+    .lastText>p{
+        color: white;
+        font-size: 18px;
+    }
 }
 
 /* // Screen Size 992px check */
@@ -439,6 +444,11 @@ body{
         padding-left: 23px;
         margin-bottom: -5px;
     }
+
+    .lastText>p{
+        color: white;
+        font-size: 16px;
+    }
 }
 
 /* // Screen Size 768px check */
@@ -459,6 +469,11 @@ body{
         padding-left: 4px;
         padding-right: 10px;
         font-size: 13px;
+    }
+
+    .lastText>p{
+        color: white;
+        font-size: 14px;
     }
 }
 
@@ -557,6 +572,11 @@ body{
         padding-top: 34px;
         padding-left: 10px;
         margin-bottom: -5px;
+    }
+
+    .lastText>p{
+        color: white;
+        font-size: 12px;
     }
 }
 
@@ -718,6 +738,17 @@ body{
         width: 150px;
         height: 123px;
         padding-left: 4px;
+    }
+
+    
+    #footer {
+        margin-left: -18px;
+        margin-right: -14px;
+    }
+
+    .lastText>p{
+        color: white;
+        font-size: 10px;
     }
 }
 
